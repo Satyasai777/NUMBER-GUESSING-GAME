@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMBER GUESSING GAME</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box">
+        <h1 class="heading1">NUMBER GUESSING GAME</h1>
+        <h3 class="heading2">RULES</h3>
+        <div class="ul">
+        <ul>
+            <li>Select a number from 1 to 100</li>
+            <li>Click on the check button</li>
+            <li>It will give you a hint to guess the number correctly</li>
+            <li>Repeat the same step until you find the number</li>
+        </ul>
+        </div>
+        <div class="input_box1">
+        <input type="number" id="number">
+        </div>
+        <div id="hint">
+            
+        </div>
+        <div class="btns">
+            <button id="btn1" type="submit" onclick="check()">check</button>
+            <div style="width: 5px;" id="count"></div>
+            <button id="btn2" type="submit" onclick="window.location.reload()">reset</button>
+        </div>
+
+
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
